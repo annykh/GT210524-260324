@@ -3,25 +3,30 @@
 База данных "store" содержит 5 таблиц:
 
 customers (Клиенты):
-
 Поля: customer_id (PRIMARY KEY), first_name, last_name, email.
 Содержит информацию о клиентах, которые делают заказы в магазине.
-products (Товары):
 
+
+products (Товары):
 Поля: product_id (PRIMARY KEY), product_name, price, category_id.
 Содержит список товаров, которые можно заказать. Каждому товару назначена категория.
-categories (Категории товаров):
 
+
+categories (Категории товаров):
 Поля: category_id (PRIMARY KEY), category_name.
 Содержит информацию о категориях, к которым относятся товары. Связь с таблицей products через поле category_id.
-orders (Заказы):
 
+
+orders (Заказы):
 Поля: order_id (PRIMARY KEY), customer_id, order_date, total.
 Содержит информацию о заказах, сделанных клиентами. Связана с таблицей customers через поле customer_id, где каждый заказ сделан конкретным клиентом.
-order_items (Детали заказа):
 
+
+order_items (Детали заказа):
 Поля: order_item_id (PRIMARY KEY), order_id, product_id, quantity, price.
 Содержит информацию о товарах, входящих в каждый заказ. Связана с таблицей orders через поле order_id и с таблицей products через поле product_id.
+
+
 Связи между таблицами:
 
 Таблица orders связана с таблицей customers через поле customer_id (один клиент может сделать несколько заказов).
