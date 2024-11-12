@@ -1,0 +1,33 @@
+КНИГИ:
+1. MySQL High Availability: Tools for Building Robust Data Centers 2nd Edition by Charles Bell (Author), Mats Kindahl (Author), Lars Thalmann (Author)
+2. Efficient MySQL Performance: Best Practices and Techniques By Daniel Nichter
+3. MongoDB: The Definitive Guide, 3rd Edition by Shannon Bradshaw, Eoin Brazil, Kristina Chodorow
+4. MongoDB Data Modeling and Schema Design by Daniel Coupal (Author), Pascal Desmarets (Author), Steve Hoberman (Author)
+5. https://andpop.ru/courses/db_books/Dubua.pdf
+6. https://sql-language.ru/sql-books/mysql-spravochnik-po-yazyku.html
+
+СПРАВОЧНИКИ:
+1. https://metanit.com/sql/mysql/
+2. https://www.w3schools.com/MySQL/default.asp
+
+ПРЕЗЕНТАЦИИ:
+
+Выборка:
+https://drive.google.com/drive/folders/1zbc3m1Mb2ue1zU_9bjLaL82md4w6qIEB
+https://drive.google.com/drive/folders/1QTTp-tcna6of4TMcrNsUxmlGQeMTX7Y4
+
+Созадние и заполнение таблиц:
+https://drive.google.com/drive/folders/1Bw82yMoHhgSuXvvlR2lh5a4sCI2DbPHe
+
+Ограничения и union:
+https://drive.google.com/drive/folders/1huN5EyaB_4Avvba27w306QZ4jrMJ6yH7
+
+Joins:
+https://drive.google.com/drive/folders/1iyZgw9m76zfBeNqZUsDMBtuYuzo7IcBj
+https://drive.google.com/drive/folders/1b6v3SSScKOQyZBpaa5cSp-7OAhPKoZci
+
+Агрегация:
+https://drive.google.com/drive/folders/1UD2Sk1yxDiWyhL9GlwnsoocqvxNv3lGz
+
+Группировка:
+https://drive.google.com/drive/folders/1NgTIqlg70PqbuujDaoOSukOwfUdPhDMb
