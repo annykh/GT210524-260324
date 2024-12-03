@@ -11,7 +11,7 @@
 //     { _id: 8, name: "Olivia Martinez", age: 27, department: "Finance", salary: 7700, location: "Chicago" },
 //     { _id: 9, name: "Noah Brown", age: 45, department: "Sales", salary: 9000, location: "Seattle" },
 //     { _id: 10, name: "Emma Davis", age: 38, department: "Marketing", salary: 5500, location: "Los Angeles" }
-// ]);
+// ])
 // 3. Найти сотрудника с точным возрастом 30 лет.
 // 4. Найти всех сотрудников, чей возраст не равен 30 лет.
 // 5. Найти сотрудников, чей возраст меньше 35 лет.
