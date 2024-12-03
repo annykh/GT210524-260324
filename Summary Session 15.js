@@ -1,15 +1,68 @@
+db.collection.find()
+db.collection.find({Условие})
+
+// Операторы сравнения
+
+// $eq : значения равны - equal (column: value)
+// $ne : значения не равны - not equal
+// $gt : значение больше другого значения - greater than
+// $gte : значение больше или равно другому значению - greater than equal
+// $lt : значение меньше другого значения - less than
+// $lte : значение меньше или равно другому значению - less than equal
+// $in : значение соответствует одному из значений в массиве 
+
+// Логические операторы
+
+// $and : возвращает документы, в которых выполняются оба условия
+// $or : возвращает документы, в которых выполняется хотя бы одно условие
+// $nor : возвращает документы, в которых оба условия не выполняются
+// $not : возвращает документы, в которых условие не выполняется
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 1. Создать базу данных company.
 // 2. Создать коллекцию employees и заполнить её следующими данными:
-//     _id - 1, name - John Doe, age - 30, department - IT, salary - 7000, location - New York
-//     _id - 2, name - Jane Smith, age - 25, department - HR, salary - 5000, location - Los Angeles
-//     _id - 3, name - Michael Johnson, age - 35, department - Finance, salary - 8500, location - Chicago
-//     _id - 4, name - Emily Brown, age - 28, department - IT, salary - 7200, location - San Francisco
-//     _id - 5, name - Daniel White, age - 40, department - Sales, salary - 6000, location - New York
-//     _id - 6, name - Sophia Taylor, age - 32, department - HR, salary - 5200, location - Miami
-//     _id - 7, name - Liam Williams, age - 29, department - IT, salary - 6800, location - Austin
-//     _id - 8, name - Olivia Martinez, age - 27, department - Finance, salary - 7700, location - Chicago
-//     _id - 9, name - Noah Brown, age - 45, department - Sales, salary - 9000, location - Seattle
-//     _id - 10, name - Emma Davis, age - 38, department - Marketing, salary - 5500, location - Los Angeles
+// db.employees.insertMany([
+//     { _id: 1, name: "John Doe", age: 30, department: "IT", salary: 7000, location: "New York" },
+//     { _id: 2, name: "Jane Smith", age: 25, department: "HR", salary: 5000, location: "Los Angeles" },
+//     { _id: 3, name: "Michael Johnson", age: 35, department: "Finance", salary: 8500, location: "Chicago" },
+//     { _id: 4, name: "Emily Brown", age: 28, department: "IT", salary: 7200, location: "San Francisco" },
+//     { _id: 5, name: "Daniel White", age: 40, department: "Sales", salary: 6000, location: "New York" },
+//     { _id: 6, name: "Sophia Taylor", age: 32, department: "HR", salary: 5200, location: "Miami" },
+//     { _id: 7, name: "Liam Williams", age: 29, department: "IT", salary: 6800, location: "Austin" },
+//     { _id: 8, name: "Olivia Martinez", age: 27, department: "Finance", salary: 7700, location: "Chicago" },
+//     { _id: 9, name: "Noah Brown", age: 45, department: "Sales", salary: 9000, location: "Seattle" },
+//     { _id: 10, name: "Emma Davis", age: 38, department: "Marketing", salary: 5500, location: "Los Angeles" }
+// ]);
 // 3. Найти сотрудника с точным возрастом 30 лет.
 // 4. Найти всех сотрудников, чей возраст не равен 30 лет.
 // 5. Найти сотрудников, чей возраст меньше 35 лет.
