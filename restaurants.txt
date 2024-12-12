@@ -1,0 +1,32 @@
+db.restaurants.insertMany([
+    {
+      "name": "Restaurant 1",
+      "cuisine": "Italian",
+      "location": "New York",
+      "menu": [
+        { "name": "Pizza Margherita", "price": 12 },
+        { "name": "Spaghetti Carbonara", "price": 15 },
+        { "name": "Tiramisu", "price": 8 }
+      ]
+    },
+    {
+      "name": "Restaurant 2",
+      "cuisine": "Mexican",
+      "location": "Los Angeles",
+      "menu": [
+        { "name": "Tacos", "price": 10 },
+        { "name": "Burritos", "price": 12 },
+        { "name": "Guacamole", "price": 6 }
+      ]
+    },
+    {
+      "name": "Restaurant 3",
+      "cuisine": "Japanese",
+      "location": "Tokyo",
+      "menu": [
+        { "name": "Sushi", "price": 20 },
+        { "name": "Ramen", "price": 15 },
+        { "name": "Matcha Ice Cream", "price": 7 }
+      ]
+    }
+  ])
